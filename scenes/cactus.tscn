@@ -1,10 +1,10 @@
 [gd_scene format=3 uid="uid://cnyd78rddl6t8"]
 
-[ext_resource type="Script" uid="uid://48208av3mjc0" path="res://scenes/cactus.gd" id="1_3uwn4"]
-[ext_resource type="Texture2D" uid="uid://12cvukkjlg4a" path="res://assets/art/Cactus.png" id="2_iiia4"]
+[ext_resource type="Script" uid="uid://48208av3mjc0" path="res://scripts/cactus.gd" id="1_3uwn4"]
+[ext_resource type="Texture2D" uid="uid://cx7xnnw7oxv33" path="res://assets/art/Cactus.png" id="2_iiia4"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4kxuq"]
-size = Vector2(667, 1052)
+size = Vector2(21, 33)
 
 [node name="Cactus" type="Node2D" unique_id=1174219579]
 script = ExtResource("1_3uwn4")
@@ -16,5 +16,5 @@ texture = ExtResource("2_iiia4")
 disable_mode = 1
 
 [node name="cacCollide" type="CollisionShape2D" parent="cactusArea" unique_id=844791848]
-position = Vector2(-17.5, -6)
+position = Vector2(-0.5, -0.5)
 shape = SubResource("RectangleShape2D_4kxuq")
