@@ -73,11 +73,16 @@ size = Vector2(16, 21)
 script = ExtResource("1_3vyb7")
 
 [node name="IdleAnim" type="AnimatedSprite2D" parent="." unique_id=931216785]
+texture_filter = 1
+scale = Vector2(2, 2)
 sprite_frames = SubResource("SpriteFrames_4kxuq")
 
 [node name="WalkAnim" type="AnimatedSprite2D" parent="." unique_id=974680293]
+texture_filter = 1
+scale = Vector2(2, 2)
 sprite_frames = SubResource("SpriteFrames_mti6b")
 [node name="playerArea" type="Area2D" parent="." unique_id=663924023]
+scale = Vector2(2, 2)
 
 [node name="pCollide" type="CollisionShape2D" parent="playerArea" unique_id=1557503913]
 position = Vector2(0, 1.5)
