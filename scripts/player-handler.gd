@@ -28,8 +28,9 @@ func handlePlayerColissions():
 		collide.append(i.name)
 	if "cactusArea" in collide:
 		globals.health = 0
+		
 	if "houseCollider" in collide:
-		position -= velocity
+		position -= velocity*2
 		
 		
 func die():
