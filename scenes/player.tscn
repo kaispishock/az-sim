@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://cuoyjgmmplo4x" path="res://scripts/player-handler.gd" id="1_3vyb7"]
 [ext_resource type="Texture2D" uid="uid://dmhi7twfkmsyi" path="res://assets/art/player-idle.png" id="2_g2els"]
+[ext_resource type="Texture2D" uid="uid://c8eiydrpevh3f" path="res://assets/art/AZ-Sim Player Walk spritesheet.png" id="3_qhqgy"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qhqgy"]
 atlas = ExtResource("2_g2els")
@@ -9,6 +10,14 @@ region = Rect2(5, 0, 14, 24)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dqkch"]
 atlas = ExtResource("2_g2els")
+region = Rect2(5, 24, 14, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qlg0r"]
+atlas = ExtResource("3_qhqgy")
+region = Rect2(5, 0, 14, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tuyoq"]
+atlas = ExtResource("3_qhqgy")
 region = Rect2(5, 24, 14, 24)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_vdbue"]
@@ -28,6 +37,17 @@ animations = [{
 "loop": 1,
 "name": &"idle",
 "speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qlg0r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tuyoq")
+}],
+"loop": 1,
+"name": &"walk",
+"speed": 5.0
 }]
 
 [node name="Player" type="Node2D" unique_id=1306658146 node_paths=PackedStringArray("textures")]
@@ -38,5 +58,4 @@ textures = NodePath("AnimatedSprite2D")
 texture_filter = 1
 scale = Vector2(2.5, 2.5)
 sprite_frames = SubResource("SpriteFrames_vdbue")
-animation = &"idle"
-frame_progress = 0.52078927
+animation = &"walk"
