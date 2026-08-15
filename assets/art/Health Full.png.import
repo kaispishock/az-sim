@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://sj6wh3k4k8xy"
-path="res://.godot/imported/AZ-Sim Player Idle spritesheet.png-c2ad2fff16e5a17c27e30626dc539cc3.ctex"
+uid="uid://ce8qkkkynay3t"
+path="res://.godot/imported/Health Full.png-a29e0b717c74c9706adc82967900e90f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/art/AZ-Sim Player Idle spritesheet.png"
-dest_files=["res://.godot/imported/AZ-Sim Player Idle spritesheet.png-c2ad2fff16e5a17c27e30626dc539cc3.ctex"]
+source_file="res://assets/art/Health Full.png"
+dest_files=["res://.godot/imported/Health Full.png-a29e0b717c74c9706adc82967900e90f.ctex"]
 
 [params]
 
