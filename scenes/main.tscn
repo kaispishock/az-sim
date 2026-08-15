@@ -5,6 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://dpd8fybcw4vil" path="res://scenes/world.tscn" id="3_sugp2"]
 [ext_resource type="PackedScene" uid="uid://cnyd78rddl6t8" path="res://scenes/cactus.tscn" id="4_jyhfs"]
 [ext_resource type="PackedScene" uid="uid://0j0asr8rwf4u" path="res://scenes/house.tscn" id="5_tbgi4"]
+[ext_resource type="PackedScene" uid="uid://dskelkbxvqu6l" path="res://scenes/DustStorms.tscn" id="5_tefeu"]
 
 [node name="Main" type="Node2D" unique_id=1949057409]
 
@@ -20,12 +21,26 @@ position = Vector2(500, 500)
 [node name="world" parent="." unique_id=1896789327 instance=ExtResource("3_sugp2")]
 
 [node name="Cactus" parent="world" unique_id=1174219579 instance=ExtResource("4_jyhfs")]
-z_index = 1
-position = Vector2(856.6854, -66.4364)
-scale = Vector2(1.5, 1.5)
+position = Vector2(293, -204)
+scale = Vector2(0.1, 0.1)
 metadata/_scene_painted = true
+
+[node name="DustStorms" parent="world" unique_id=621332628 instance=ExtResource("5_tefeu")]
+position = Vector2(-440, -524)
+
+[node name="DustStorms2" parent="world" unique_id=281724915 instance=ExtResource("5_tefeu")]
+position = Vector2(-758, -608)
 
 [node name="CollidableObjects" parent="." unique_id=1737208779 instance=ExtResource("5_tbgi4")]
 texture_filter = 1
-position = Vector2(726.99994, 510)
+position = Vector2(321.00003, -18.999878)
 scale = Vector2(5, 5)
+
+[node name="DustStorms" parent="." unique_id=1869116205 instance=ExtResource("5_tefeu")]
+position = Vector2(-941, -234)
+
+[node name="DustStorms2" parent="." unique_id=1267189199 instance=ExtResource("5_tefeu")]
+position = Vector2(-798, -307)
+
+[node name="DustStorms3" parent="." unique_id=1646236581 instance=ExtResource("5_tefeu")]
+position = Vector2(-636, -586)

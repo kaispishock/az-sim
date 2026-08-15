@@ -6,12 +6,15 @@ func _ready() -> void: # runs once and void means it reutns nothing
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta: float) -> void:
+func _process(delta: float) -> void:
 	#print(collider.get_overlapping_areas())
-	#var overlaps = collider.get_overlapping_areas()
-	#for i in overlaps:
-		#if i.name == "playerArea":
-			#globals.health = 0
+	var overlaps = collider.get_overlapping_areas()
+	for i in overlaps:
+		if i.name == "playerArea":
+			rotation_degrees = 270
+			await get_tree().create_timer(0.5).timeout
+			globals.health = 0
+			rotation_degrees = 0
 		#globals.health = 0
 	
 	
