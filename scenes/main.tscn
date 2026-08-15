@@ -22,7 +22,6 @@ position = Vector2(500, 500)
 
 [node name="Cactus" parent="world" unique_id=1174219579 instance=ExtResource("4_jyhfs")]
 position = Vector2(293, -204)
-scale = Vector2(0.1, 0.1)
 metadata/_scene_painted = true
 
 [node name="DustStorms" parent="world" unique_id=621332628 instance=ExtResource("5_tefeu")]

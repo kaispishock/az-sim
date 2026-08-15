@@ -34,5 +34,5 @@ func handlePlayerColissions():
 		
 		
 func die():
-	position = Vector2(500, 500)
+	position = Vector2(0, 150)
 	globals.health = 100
