@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://dtx0h0v68ybb6"]
+
+[ext_resource type="Texture2D" uid="uid://dx7ok46wii5xx" path="res://assets/art/Ugly Car.png" id="1_7ge28"]
+[ext_resource type="Script" uid="uid://bwrxoa66wih3r" path="res://scripts/car.gd" id="1_eoxbu"]
+
+[node name="Car" type="Node2D" unique_id=1416817418]
+scale = Vector2(5, 5)
+script = ExtResource("1_eoxbu")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1994447189]
+texture = ExtResource("1_7ge28")

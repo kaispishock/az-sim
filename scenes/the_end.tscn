@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://ccgfjtpyfl3s1"]
+
+[ext_resource type="Texture2D" uid="uid://54kjawc1nwg1" path="res://assets/art/Phoenix.png" id="1_a842l"]
+
+[node name="THE_END" type="Node2D" unique_id=2075833378]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1005330198]
+texture = ExtResource("1_a842l")

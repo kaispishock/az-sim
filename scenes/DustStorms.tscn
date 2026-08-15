@@ -4,10 +4,10 @@
 [ext_resource type="Texture2D" uid="uid://bgvsx6tnlkp0w" path="res://assets/art/Dust Cloud image.png" id="2_molnc"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4kxuq"]
-size = Vector2(39, 21)
+size = Vector2(30.200005, 11.200002)
 
 [node name="DustStorms" type="Node2D" unique_id=621332628]
-scale = Vector2(3, 3)
+scale = Vector2(5, 5)
 script = ExtResource("1_xqajc")
 
 [node name="DustStorm" type="Sprite2D" parent="." unique_id=1978327694]
@@ -18,5 +18,6 @@ texture = ExtResource("2_molnc")
 position = Vector2(-2, -1)
 
 [node name="dCollide" type="CollisionShape2D" parent="dustArea" unique_id=310074407]
-position = Vector2(2.5, -1.5)
+position = Vector2(1.6999996, -0.19999999)
+scale = Vector2(0.99999976, 0.99999976)
 shape = SubResource("RectangleShape2D_4kxuq")

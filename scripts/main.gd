@@ -1,9 +1,15 @@
 extends Node2D
 @onready var spirte: Sprite2D = $Map # obtaining asset
-@export var dustStorm = preload("res://scenes/DustStorms.tscn")
+var cactus = preload("res://scenes/cactus.tscn")
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	pass # Replace with function body.
+	pass
+	#print("TEST")
+	#for i in range (50):
+		#var init = cactus.instantiate()
+		#add_child(init)
+		#init.position = Vector2(randi() % 950, -(randi() % 1000 + 150))
+	 # Replace with function body.
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
