@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://0j0asr8rwf4u"]
+
+[ext_resource type="Texture2D" uid="uid://df5t6vegmemg" path="res://assets/art/House az-sim.png" id="1_s8jll"]
+
+[node name="CollidableObjects" type="Node2D" unique_id=1737208779]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2098594809]
+texture = ExtResource("1_s8jll")
