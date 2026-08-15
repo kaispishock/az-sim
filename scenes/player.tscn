@@ -48,6 +48,8 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4kxuq"]
+
 [node name="Player" type="Node2D" unique_id=1306658146]
 script = ExtResource("1_3vyb7")
 
@@ -56,3 +58,8 @@ sprite_frames = SubResource("SpriteFrames_4kxuq")
 
 [node name="WalkAnim" type="AnimatedSprite2D" parent="." unique_id=974680293]
 sprite_frames = SubResource("SpriteFrames_mti6b")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=663924023]
+
+[node name="playerArea" type="CollisionShape2D" parent="Area2D" unique_id=1557503913]
+shape = SubResource("RectangleShape2D_4kxuq")
