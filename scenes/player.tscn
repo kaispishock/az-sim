@@ -1,8 +1,10 @@
 [gd_scene format=3 uid="uid://dbauxumtuhuu5"]
 
 [ext_resource type="Script" uid="uid://cuoyjgmmplo4x" path="res://scripts/player-handler.gd" id="1_3vyb7"]
+[ext_resource type="Texture2D" uid="uid://7el3l3p61fvb" path="res://icon.svg" id="2_g2els"]
 
 [node name="Player" type="Node2D" unique_id=1306658146]
 script = ExtResource("1_3vyb7")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=847668423]
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=782056887]
+texture = ExtResource("2_g2els")
