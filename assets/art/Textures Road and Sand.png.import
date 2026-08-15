@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dmhi7twfkmsyi"
-path="res://.godot/imported/player-idle.png-df9ce700533f6a27ce57ce3c88f08703.ctex"
+uid="uid://dt5dkqket868d"
+path="res://.godot/imported/Textures Road and Sand.png-f15ce5bac14157d19347647bd2dc2ad4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/art/player-idle.png"
-dest_files=["res://.godot/imported/player-idle.png-df9ce700533f6a27ce57ce3c88f08703.ctex"]
+source_file="res://assets/art/Textures Road and Sand.png"
+dest_files=["res://.godot/imported/Textures Road and Sand.png-f15ce5bac14157d19347647bd2dc2ad4.ctex"]
 
 [params]
 
