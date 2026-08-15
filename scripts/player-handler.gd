@@ -14,4 +14,9 @@ func _process(delta: float) -> void:
 	velocity += Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down") * speed
 	velocity *= friction
 	position += velocity
-	textures.play(&"idle", 1.0)
+	if globals.health == 0:
+		die()
+		
+func die():
+	position = Vector2(500, 500)
+	globals.health = 100
