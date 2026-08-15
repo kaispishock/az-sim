@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cx7xnnw7oxv33"
-path="res://.godot/imported/Cactus-1.png.png-de6d613f6f2a7a6caeae59d943ceaf28.ctex"
+uid="uid://54kjawc1nwg1"
+path="res://.godot/imported/Phoenix.png-3a718d024aa4fca14b6190c6cd0645ac.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/art/Cactus-1.png.png"
-dest_files=["res://.godot/imported/Cactus-1.png.png-de6d613f6f2a7a6caeae59d943ceaf28.ctex"]
+source_file="res://assets/art/Phoenix.png"
+dest_files=["res://.godot/imported/Phoenix.png-3a718d024aa4fca14b6190c6cd0645ac.ctex"]
 
 [params]
 
