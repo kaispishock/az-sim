@@ -1,3 +1,18 @@
 [gd_scene format=3 uid="uid://d4eo1l6x6u58a"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4kxuq"]
+size = Vector2(20, 575)
+
+[sub_resource type="TileSet" id="TileSet_4kxuq"]
+
 [node name="Road" type="Node2D" unique_id=38405302]
+
+[node name="roadArea" type="Area2D" parent="." unique_id=39878711]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="roadArea" unique_id=1795043508]
+position = Vector2(0, 105.5)
+shape = SubResource("RectangleShape2D_4kxuq")
+
+[node name="TileMap" type="TileMap" parent="." unique_id=170796101]
+tile_set = SubResource("TileSet_4kxuq")
+format = 2
