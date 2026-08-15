@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://sj6wh3k4k8xy"
-path="res://.godot/imported/AZ-Sim Player Idle spritesheet.png-c2ad2fff16e5a17c27e30626dc539cc3.ctex"
+uid="uid://d1vrjuyw083pl"
+path="res://.godot/imported/Hydration Low.png-6ba0ee2231eb3cfc292971fc840130e7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/art/AZ-Sim Player Idle spritesheet.png"
-dest_files=["res://.godot/imported/AZ-Sim Player Idle spritesheet.png-c2ad2fff16e5a17c27e30626dc539cc3.ctex"]
+source_file="res://assets/art/Hydration Low.png"
+dest_files=["res://.godot/imported/Hydration Low.png-6ba0ee2231eb3cfc292971fc840130e7.ctex"]
 
 [params]
 
