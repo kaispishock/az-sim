@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://co53rtd7812vk"
-path="res://.godot/imported/AZ-Sim Player Idle spritesheet.png-6d952dd38ab52492f9022e563177a9a7.ctex"
+uid="uid://dt5dkqket868d"
+path="res://.godot/imported/Textures Road and Sand.png-f15ce5bac14157d19347647bd2dc2ad4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/AZ-Sim Player Idle spritesheet.png"
-dest_files=["res://.godot/imported/AZ-Sim Player Idle spritesheet.png-6d952dd38ab52492f9022e563177a9a7.ctex"]
+source_file="res://assets/art/Textures Road and Sand.png"
+dest_files=["res://.godot/imported/Textures Road and Sand.png-f15ce5bac14157d19347647bd2dc2ad4.ctex"]
 
 [params]
 
