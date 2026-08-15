@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://dskelkbxvqu6l"]
+
+[ext_resource type="Script" uid="uid://b7qdiujv8x12o" path="res://scenes/dust_storms.gd" id="1_xqajc"]
+[ext_resource type="Texture2D" uid="uid://bgvsx6tnlkp0w" path="res://assets/art/Dust Cloud image.png" id="2_molnc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4kxuq"]
+size = Vector2(590, 37)
+
+[node name="DustStorms" type="Node2D" unique_id=621332628]
+script = ExtResource("1_xqajc")
+
+[node name="DustStorm" type="Sprite2D" parent="." unique_id=1978327694]
+texture = ExtResource("2_molnc")
+
+[node name="dustArea" type="Area2D" parent="." unique_id=1224108665]
+position = Vector2(-2, -1)
+
+[node name="dCollide" type="CollisionShape2D" parent="dustArea" unique_id=310074407]
+position = Vector2(2, -9.5)
+shape = SubResource("RectangleShape2D_4kxuq")

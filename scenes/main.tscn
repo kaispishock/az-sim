@@ -9,6 +9,7 @@
 [node name="Main" type="Node2D" unique_id=1949057409]
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1955757939 node_paths=PackedStringArray("toFollow")]
+zoom = Vector2(1.7, 1.7)
 script = ExtResource("1_o5qli")
 toFollow = NodePath("../Player")
 
@@ -26,4 +27,4 @@ metadata/_scene_painted = true
 [node name="CollidableObjects" parent="." unique_id=1737208779 instance=ExtResource("5_tbgi4")]
 texture_filter = 1
 position = Vector2(726.99994, 510)
-scale = Vector2(10, 10)
+scale = Vector2(5, 5)
