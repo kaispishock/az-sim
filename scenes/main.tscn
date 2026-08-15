@@ -20,8 +20,9 @@ position = Vector2(500, 500)
 [node name="world" parent="." unique_id=1896789327 instance=ExtResource("3_sugp2")]
 
 [node name="Cactus" parent="world" unique_id=1174219579 instance=ExtResource("4_jyhfs")]
+z_index = 1
 position = Vector2(856.6854, -66.4364)
-scale = Vector2(0.1, 0.1)
+scale = Vector2(1.5, 1.5)
 metadata/_scene_painted = true
 
 [node name="CollidableObjects" parent="." unique_id=1737208779 instance=ExtResource("5_tbgi4")]

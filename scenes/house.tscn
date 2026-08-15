@@ -2,7 +2,17 @@
 
 [ext_resource type="Texture2D" uid="uid://df5t6vegmemg" path="res://assets/art/House az-sim.png" id="1_s8jll"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vdbue"]
+size = Vector2(31, 30)
+
 [node name="CollidableObjects" type="Node2D" unique_id=1737208779]
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=2098594809]
+texture_filter = 1
 texture = ExtResource("1_s8jll")
+
+[node name="houseCollider" type="Area2D" parent="." unique_id=1652653293]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="houseCollider" unique_id=1921507691]
+position = Vector2(0.5, 0)
+shape = SubResource("RectangleShape2D_vdbue")
